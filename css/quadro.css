@@ -1,0 +1,15 @@
+#quadro {
+    /* height: 580px; */
+    padding-top: 83px;
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: inherit;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 719px) {
+    #quadro {
+        padding-top: 110px;
+    }
+}

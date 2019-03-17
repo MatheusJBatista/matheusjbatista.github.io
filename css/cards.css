@@ -1,0 +1,24 @@
+.wrapCards {
+    height: auto;
+}
+
+.cards {
+    margin: 10px 10px -7px 10px;
+    /* border: 1px solid rgb(223, 218, 154); */
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px -6px rgb(179, 173, 101);
+    cursor: grab;
+}
+
+.cards:active {
+    cursor: grabbing;
+}
+
+.cards div {
+    padding-left: 5px;
+}
+
+.drag {
+    transform: rotate(3deg)
+}

@@ -1,0 +1,63 @@
+.menu {
+    height: 40px;
+    align-items: center;
+}
+
+.flex-items {
+    display: flex;
+    height: 30px;
+}
+
+.flex-items-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 0;
+    height: 30px;
+}
+
+.line {
+    text-align: center;
+    cursor: pointer;
+}
+
+.bordinha {
+    border-left: 1px solid black;
+    height: 16px;
+    float: left;
+    margin: 8px 10px 0 10px;
+}
+
+.convidados button {
+    background-color: rgb(170, 170, 170);
+    padding: 0 0 6px 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 60%
+}
+
+.convidados img {
+    border-radius: 60%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.convidados p {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.lider img {
+    border: 3px solid gold;
+}
+
+@media only screen and (max-width: 719px) {
+    .menu {
+        height: 60px;
+    }
+}
